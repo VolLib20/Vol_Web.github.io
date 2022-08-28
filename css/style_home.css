@@ -1,0 +1,221 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #161616;
+}
+
+#div_home {
+  height: 20%;
+}
+
+#div_home img {
+  margin: 5%;
+  width: 20%;
+}
+
+#div_princ h2 {
+  text-align: center;
+  font: bold 4vw "Balto", Times, serif;
+  color: white;
+  margin: 0px;
+}
+
+#div_princ {
+  width: 60%;
+  margin: 10% auto;
+}
+
+a {
+  display: flex;
+  justify-content: center;
+  font: italic 3.5vw "Times New Roman", Times, serif;
+  color: white;
+}
+
+a:active {
+  display: flex;
+  justify-content: center;
+  font: italic 3.5vw "Times New Roman", Times, serif;
+  color: blue;
+}
+
+#div_princ img {
+  display: flex;
+  width: 80%;
+  margin: 0px auto;
+  overflow: hidden;
+  justify-content: center;
+}
+
+#div_inspiracion {
+  margin: 10% 0px 0px 0px;
+  padding: 20px;
+  background-color: #b3b3b3;
+}
+
+#div_insp_img {
+  padding: 20px;
+  background-color: #b3b3b3;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#div_insp_img div {
+  text-align: center;
+  font: italic 2vw "Times New Roman", Times, serif;
+  color: white;
+}
+
+#div_insp_img div img {
+  width: 20vw;
+  margin: 1.5%;
+}
+
+#div_insp_separacion {
+  padding: 10px;
+  border-bottom: 0.3vw solid white;
+}
+
+#div_insp_separacion p {
+  text-align: center;
+  font: italic 3.5vw "Times New Roman", Times, serif;
+  color: white;
+}
+
+#div_insp_separacion2 {
+  padding: 5px;
+  border-top: 0.3vw solid white;
+  border-bottom: 0.3vw solid white;
+}
+
+#footer {
+  display: flex;
+  justify-content: end;
+  padding: 2vw;
+}
+
+#footer img {
+  width: 3vw;
+  margin: 0.3vw;
+}
+
+/*
+
+-----------------------------------------------------------------------------------------------------
+
+MEDIA MOVILES
+
+*/
+
+@media (max-width: 425px) {
+  * {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  body {
+    background-color: #161616;
+  }
+
+  #div_home {
+    display: flex;
+    justify-content: center;
+    height: 20%;
+  }
+
+  #div_home img {
+    margin: 5%;
+    width: 50%;
+  }
+
+  #div_princ h2 {
+    text-align: center;
+    font: bold 4vw "Balto", Times, serif;
+    color: white;
+    margin: 0px;
+  }
+
+  #div_princ {
+    width: 60%;
+    margin: 10% auto;
+  }
+
+  a {
+    display: flex;
+    justify-content: center;
+    font: italic 3.5vw "Times New Roman", Times, serif;
+    color: white;
+  }
+
+  a:active {
+    display: flex;
+    justify-content: center;
+    font: italic 3.5vw "Times New Roman", Times, serif;
+    color: blue;
+  }
+
+  #div_princ img {
+    display: flex;
+    width: 80%;
+    margin: 0px auto;
+    overflow: hidden;
+    justify-content: center;
+  }
+
+  #div_inspiracion {
+    margin: 10% 0px 0px 0px;
+    padding: 20px;
+    background-color: #b3b3b3;
+  }
+
+  #div_insp_img {
+    padding: 20px;
+    background-color: #b3b3b3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #div_insp_img div {
+    text-align: center;
+    font: italic 2vw "Times New Roman", Times, serif;
+    color: white;
+  }
+
+  #div_insp_img div img {
+    width: 20vw;
+    margin: 1.5%;
+  }
+
+  #div_insp_separacion {
+    padding: 10px;
+    border-bottom: 0.3vw solid white;
+  }
+
+  #div_insp_separacion p {
+    text-align: center;
+    font: italic 3.5vw "Times New Roman", Times, serif;
+    color: white;
+  }
+
+  #div_insp_separacion2 {
+    padding: 5px;
+    border-top: 0.3vw solid white;
+    border-bottom: 0.3vw solid white;
+  }
+
+  #footer {
+    display: flex;
+    justify-content: center;
+    padding: 2vw;
+  }
+
+  #footer img {
+    width: 6vw;
+    margin: 1vw;
+  }
+}
