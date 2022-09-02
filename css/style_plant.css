@@ -12,7 +12,7 @@ header {
   height: 180px;
 }
 
-header img {
+header a img {
   margin: 50px 20px;
   width: 250px;
 }
@@ -66,6 +66,10 @@ nav li a:hover {
   font-size: 1.2vw;
 }
 
+nav li #nav_test:hover {
+  color: #161616;
+}
+
 /*
 --------------MAIN--------------------------
 */
@@ -112,12 +116,12 @@ nav li a:hover {
   margin: 0em 0em 0em 0.3em;
 }
 
-#contenedor_main .div_main_sup #h3 {
+#contenedor_main .div_main_sup .h3 {
   margin: 0px 1vw;
   padding: 0px 0.5vw;
 }
 
-#contenedor_main .div_main_sup #h3 a {
+#contenedor_main .div_main_sup .h3 a {
   color: black;
   font: bold 1.7vw "Balto";
 }
@@ -160,12 +164,12 @@ nav li a:hover {
   margin: 0em 0em 0em 0.3em;
 }
 
-#contenedor_main .div_main_inf #h3 {
+#contenedor_main .div_main_inf .h3 {
   margin: 0px 1vw;
   padding: 0px 0.5vw;
 }
 
-#contenedor_main .div_main_inf #h3 a {
+#contenedor_main .div_main_inf .h3 a {
   color: black;
   font: bold 1.7vw "Balto";
 }
@@ -270,7 +274,7 @@ footer #div_foot_izq .logo #open {
     height: 180px;
   }
 
-  header img {
+  header a img {
     margin: 50px 20px;
     width: 250px;
   }
@@ -313,13 +317,24 @@ footer #div_foot_izq .logo #open {
     border: 1px solid white;
   }
 
+  nav li a:hover {
+    background: #b3b3b3;
+    color: #161616;
+    font-weight: bold;
+    font-size: 2vw;
+  }
+
+  nav li #nav_test:hover {
+    color: #161616;
+  }
+
   /*
 --------------MAIN--------------------------
 */
 
   #contenedor_main {
     margin: 50px auto;
-    width: 70%;
+    width: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -332,12 +347,12 @@ footer #div_foot_izq .logo #open {
 
   #contenedor_main .div_main_sup {
     border: 1px solid #b3b3b3;
-    width: 30vw;
-    height: 70vw;
+    width: 44vw;
+    height: 90vw;
   }
 
   #contenedor_main .div_main_sup img {
-    width: 30vw;
+    width: 44vw;
   }
 
   #contenedor_main .div_main_sup .fecha_hora {
@@ -351,7 +366,7 @@ footer #div_foot_izq .logo #open {
     display: flex;
     flex-direction: row;
     color: #b3b3b3;
-    font-size: 2vw;
+    font-size: 2.5vw;
   }
 
   #contenedor_main .div_main_sup .fecha_hora img {
@@ -359,19 +374,19 @@ footer #div_foot_izq .logo #open {
     margin: 0em 0em 0em 0.3em;
   }
 
-  #contenedor_main .div_main_sup #h3 {
+  #contenedor_main .div_main_sup .h3 {
     margin: 0px 1vw;
     padding: 0px 0.5vw;
   }
 
-  #contenedor_main .div_main_sup #h3 a {
+  #contenedor_main .div_main_sup .h3 a {
     color: black;
-    font: bold 3vw "Balto";
+    font: bold 4vw "Balto";
   }
 
   #contenedor_main .div_main_sup p {
-    margin: 0.5vw 1.5vw;
-    font-size: 1.2vw;
+    margin: 2vw 1.5vw;
+    font-size: 2vw;
   }
 
   /*
@@ -380,12 +395,12 @@ footer #div_foot_izq .logo #open {
 
   #contenedor_main .div_main_inf {
     border: 1px solid #b3b3b3;
-    width: 30vw;
-    height: 70vw;
+    width: 44vw;
+    height: 90vw;
   }
 
   #contenedor_main .div_main_inf img {
-    width: 30vw;
+    width: 44vw;
   }
 
   #contenedor_main .div_main_inf .fecha_hora {
@@ -399,7 +414,7 @@ footer #div_foot_izq .logo #open {
     display: flex;
     flex-direction: row;
     color: #b3b3b3;
-    font-size: 2vw;
+    font-size: 2.5vw;
   }
 
   #contenedor_main .div_main_inf .fecha_hora img {
@@ -407,19 +422,19 @@ footer #div_foot_izq .logo #open {
     margin: 0em 0em 0em 0.3em;
   }
 
-  #contenedor_main .div_main_inf #h3 {
+  #contenedor_main .div_main_inf .h3 {
     margin: 0px 1vw;
     padding: 0px 0.5vw;
   }
 
-  #contenedor_main .div_main_inf #h3 a {
+  #contenedor_main .div_main_inf .h3 a {
     color: black;
-    font: bold 3vw "Balto";
+    font: bold 4vw "Balto";
   }
 
   #contenedor_main .div_main_inf p {
-    margin: 0.5vw 1.5vw;
-    font-size: 1.2vw;
+    margin: 2vw 1.5vw;
+    font-size: 2vw;
   }
 
   /*
